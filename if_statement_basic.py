@@ -1,8 +1,8 @@
-# Simple If Statement Example: Checking Hot Weather
-temperature = float(input("Enter the temperature in Celsius: ")
-                    
-if temperature > 30:
-    
-    print("It's a hot day! Stay hydrated and cool. ")
+# Simple If Statement Example: Hot Day Check
 
-print("Have a great day!")
+temperature = int(input("Enter the temperature in Celsius: "))
+
+if temperature >= 35:
+    print("It's a very hot day! Stay in the shade and drink lots of water. ☀")
+
+print("Enjoy your day!")
