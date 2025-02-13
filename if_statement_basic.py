@@ -1,5 +1,4 @@
 # Simple If Statement Example: Checking Hot Weather
-
 temperature = float(input("Enter the temperature in Celsius: "))
 
 if temperature > 30:
